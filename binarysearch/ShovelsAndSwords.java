@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ShovelsAndSwords {
     private static final Scanner inputReader = new Scanner(System.in);
 
-    // Time Complexity: O(t * 1)
+    // Time Complexity: O(t)
     // Space Complexity: O(1)
     public static void main(String[] parameters) {
         int totalTestCases = inputReader.nextInt();
@@ -49,7 +49,7 @@ public class ShovelsAndSwords {
     // Optimized Solution
     // Time Complexity: O(-)
     // Space Complexity: O(-)
-    private static void optimizedSolution() {
+    private static void optimizedSolution(int totalSticks, int totalDiamonds) {
         // -
     }
 
